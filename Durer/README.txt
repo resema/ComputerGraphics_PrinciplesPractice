@@ -1,0 +1,1 @@
+﻿This app is an implementation of the Durer renderer, from Chapter 3 of Computer Graphics, Principles and Practice. Running the app creates a 2D rendering of a 3D cube, from a fixed point of view. 

@@ -1,0 +1,2 @@
+﻿This is a sample application of the 2D testbed. The user clicks on points of a polygon, and then 
+when the user clicks on the "Dualize" button, each edge is replaced by its midpoint, and these midpoints are joined by new edges, resulting in a "dual" polygon; repeated dualizing tends to make the polygon shrink down to nothing. 

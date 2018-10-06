@@ -1,0 +1,6 @@
+﻿This is a demonstration of basic texture mapping. On the right is a triangle to be textured; the corners of the triangle are assigned texture coordinates, which are represented by the pink dots on the left, which are located within a checkerboard texture image. The user can drag these pink dots (effectively changing the texture coordinates for the vertices) and the resulting texture on the triangle at the right is updated. 
+
+The texture on the right-hand polygon is generated in the simplest possible way: for each "pixel" of the right hand images (the "pixels" are rectangles about 1mm on a side), we map its center point to the texture image, and determine whether that texture point is black or white. We then draw the square pixel with either black or white, accordingly. 
+
+This technique exhibits multiple aliasing artifacts. If the source image were smoother -- a gray gradient, for instance -- the result would look nicer. If we mapped multiple target points of the pixel into the 
+texture image and averaged the results to get the target pixel color, the result would look nicer. If the target pixels were overlapping transparent disks of color rather than squares with sharp edges, the result would look nicer. But this program lets you see every possible flaw that arises from naive texture mapping. 

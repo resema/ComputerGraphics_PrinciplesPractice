@@ -1,0 +1,2 @@
+﻿A second version of the 2D App, but in this one, the y-coordinate increases in the downwards direction. 
+When we add text, we have to set the yUp flag (default: true) to be "false". Everything else is pretty similar. 

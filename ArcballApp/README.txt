@@ -1,0 +1,2 @@
+﻿This is a basic 3D App to demonstrate the use of the arcball for interaction. The user can right-click on the cube to display/hide a 
+transparent interaction sphere surrounding it. Clicks-and-drags on the sphere cause the cube to rotate. 
